@@ -1,0 +1,54 @@
+name: Notebook Smoke Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify sample data exists
+        run: |
+          test -f data/sample/global_indicators_sample.csv || exit 1
+          echo "Sample data file found"
+
+      - name: Validate notebooks are valid JSON
+        run: |
+          python -c "
+          import json
+          import os
+          for root, dirs, files in os.walk('notebooks'):
+              for f in files:
+                  if f.endswith('.ipynb'):
+                      path = os.path.join(root, f)
+                      with open(path) as nb:
+                          json.load(nb)
+                          print(f'Valid: {path}')
+          "
+
+      - name: Smoke test - load sample data
+        run: |
+          python -c "
+          import pandas as pd
+          df = pd.read_csv('data/sample/global_indicators_sample.csv')
+          required_cols = ['country', 'iso3', 'year', 'gdp_growth', 'inflation', 'exports_usd_bn', 'imports_usd_bn', 'trade_openess_percent', 'unemployment_percent', 'exchange_rate_change_percent', 'internet_users_percent', 'co2_per_capita', 'region']
+          missing = [c for c in required_cols if c not in df.columns]
+          if missing:
+              raise ValueError(f'Missing columns: {missing}')
+          print(f'Sample data loaded successfully: {len(df)} rows, {len(df.columns)} columns')
+          "
