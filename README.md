@@ -65,12 +65,6 @@ Slack workspace link: To be announced
 - Later materials are under active development
 - The repository will be updated before and during the course
 
-### License
-
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
 ### Acknowledgments
 
 This course draws inspiration from and acknowledges the following open educational resources:
@@ -78,6 +72,12 @@ This course draws inspiration from and acknowledges the following open education
 - [Data Science for Public Policy](https://github.com/corybaird/datascience-publicpolicy-2026) by Cory Baird
 - [Geospatial Data in R](https://github.com/JoshMerfeld/geospatialdataR) by Josh Merfeld
 - [Data Visualization](https://github.com/KDIS-DSPPM/data-visualization) by Jae Yeon Kim
+
+### License
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 
