@@ -1,5 +1,8 @@
-# Lab 4: Bounded Agent Workflow
+# Lab 04: Bounded-Agent Workflow
 
-Design structured workflows with clear inputs, tools, and human oversight.
+This lab teaches a structured bounded workflow without complex autonomous agents or paid APIs.
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GSIS-DS-Fall-2026/data-science-ai-global-decision-making/blob/main/labs/lab-04-bounded-agent-workflow/starter.ipynb)
+Workflow:
+Question -> Defined data/tools -> Analytical steps -> Draft output -> Verification -> Human decision
+
+Starter notebook (Colab): https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/labs/lab-04-bounded-agent-workflow/starter.ipynb

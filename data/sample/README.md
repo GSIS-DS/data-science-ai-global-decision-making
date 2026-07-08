@@ -1,3 +1,9 @@
-# Sample Data
+# Sample Dataset
 
-**Note: This is a synthetic teaching dataset created for classroom exercises only. It is not official data from any statistical agency and should not be used for research or policy analysis.**
+This is a synthetic teaching dataset created for classroom exercises only. It should not be used for real empirical analysis or policy decisions.
+
+File:
+- global_indicators_sample.csv
+
+Dictionary:
+- global_indicators_data_dictionary.md

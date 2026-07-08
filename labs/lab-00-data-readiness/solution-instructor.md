@@ -1,3 +1,1 @@
-# Solution
-
-**Note: This is a placeholder intended to be replaced with private instructor copies before deployment. Do not commit actual solutions to the public repository.**
+This file is a placeholder for private instructor notes. Do not store confidential solutions in the public repository.

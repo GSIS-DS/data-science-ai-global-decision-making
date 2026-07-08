@@ -1,24 +1,15 @@
 # Course Development Roadmap
 
-## Completed
+## Current Architecture
 
-- Repository structure
-- Weeks 1-4 notebooks
-- Labs 1-4 starters
-- Sample dataset
-- Basic documentation
+The repository is organized as a public course hub with stable folders for syllabus, notebooks, labs, assignments, resources, templates, and instructor planning.
 
-## In Progress
+## Before Spring 2027 Teaching
 
-- Weeks 5-16 materials
-- Additional examples
-- Expanded resources
+1. Finalize Weeks 5-16 teaching notebooks and checks.
+2. Prepare private instructor solution copies and grading guidance.
+3. Confirm final LMS calendar and release schedule.
 
-## To Do Before Teaching
+## Expansion Principle
 
-- [ ] Weeks 5-16 detailed notebooks
-- [ ] Additional assignment datasets
-- [ ] Instructor solution files
-- [ ] Final syllabus adjustments
-- [ ] Classroom 50 integration testing
-- [ ] Student feedback on starter materials
+Expand content within existing folders and naming conventions to avoid breaking links, templates, and assignment flow.

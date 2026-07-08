@@ -1,12 +1,11 @@
-cff-version: "1.2"
-message: "If you use these course materials, please cite them as: Iegor Vyshnevskyi (2026). Data Science and AI for Global Decision-Making. Sogang University / Geppert School of International Studies."
+cff-version: "1.2.0"
+message: "If you use these course materials, please cite this repository."
 title: "Data Science and AI for Global Decision-Making"
-version: "1.0"
-date-released: 2026
-url: https://github.com/GSIS-DS-Fall-2026/data-science-ai-global-decision-making
-author:
+version: "course-ready-beta"
+date-released: 2026-12-01
+authors:
   - family-names: "Vyshnevskyi"
     given-names: "Iegor"
     affiliation: "Sogang University / Geppert School of International Studies"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/GSIS-DS/data-science-ai-global-decision-making"
 license: "CC-BY-4.0"

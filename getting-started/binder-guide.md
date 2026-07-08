@@ -1,29 +1,19 @@
 # Binder Guide
 
-Binder provides a quick way to explore notebooks without Google account setup.
+Binder is available for temporary exploration and public demonstration.
 
-## What is Binder?
+## What Binder Is For
 
-Binder builds a temporary Jupyter environment from this repository. Nothing is saved permanently.
+- quick no-setup exploration
+- opening public notebooks for demonstration
 
-## Using Binder
+## What Binder Is Not For
 
-1. Go to the Binder link (to be added when course launches)
-2. Browse to any notebook in the repository
-3. Click to open and start exploring
+- normal environment for graded coursework
+- long-running or persistent project work
 
-## Limitations
+## Important Notes
 
-- **Temporary**: Your work disappears when you close the browser
-- **Slow startup**: First launch takes a few minutes
-- **Limited sessions**: May time out after inactivity
-- **No persistent storage**: Save work elsewhere before closing
-
-## Recommendation
-
-Use Binder only for:
-- Quick exploration of examples
-- When Colab is unavailable
-- Testing compatibility
-
-For all graded work, use Google Colab and save to your GitHub repository.
+- Binder sessions are temporary and can time out.
+- Storage is not persistent.
+- Students should save and submit work through the Colab/GitHub/LMS workflow.

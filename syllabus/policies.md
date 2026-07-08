@@ -1,32 +1,21 @@
 # Course Policies
 
-## Academic Integrity
+## Academic Integrity and Responsible AI
 
-All work submitted must be your own. Collaboration is encouraged on labs and for learning, but individual assignments must represent your own understanding. When in doubt, cite your sources and collaborators.
+All submitted work must reflect your own understanding. Collaboration rules are defined per activity. AI use must follow the [AI-Use Policy](ai-use-policy.md), including disclosure when material AI use occurs.
 
-## Late Work
+External generative-AI tools are not permitted during the Week 8 midterm unless explicitly authorized in writing.
 
-- Labs: 1 day grace period, then 10% penalty per day
-- Assignments: 3 days grace period, then 10% penalty per day
-- Exceptions require documented circumstances
+## Submission and Communication
 
-## Accessibility
+- LMS is the official channel for grades and formal announcements.
+- GitHub repositories and notebooks are the primary technical submission medium.
+- Slack is supplementary and does not replace LMS communication.
 
-If you need accommodations for accessibility, please contact the instructor early in the semester. We will work together to ensure you have equal access to learning opportunities.
+## Reproducibility Expectations
 
-## Technology Requirements
+Students should submit work that can be rerun and reviewed with clear documentation of data sources, transformations, and interpretation limits.
 
-- Reliable internet access
-- GitHub account (free)
-- Google account for Colab access
-- Computer capable of running Jupyter notebooks in browser
+## Inclusion and Accessibility
 
-## Communication
-
-- Check the repository regularly for updates
-- Slack for course discussion (link to be announced)
-- Office hours by appointment
-
-## Inclusion
-
-This course welcomes students from all backgrounds. International and domestic students, students with and without programming experience, and students with diverse perspectives on global issues all contribute to our learning community.
+The course welcomes students from diverse disciplinary and language backgrounds. Students who need accommodations should contact the instructor early so adjustments can be arranged.

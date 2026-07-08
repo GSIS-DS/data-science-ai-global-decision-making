@@ -1,18 +1,16 @@
 # Data Directory
 
-This directory organizes data used in the course.
+This directory contains synthetic and assignment-structured data folders for course activities.
 
-**Structure**
+## Structure
 
-```
+```text
 data/
-├── raw/         # Original downloaded datasets (.gitkeep - not in repo)
-├── processed/   # Cleaned datasets (.gitkeep - not in repo)
-└── sample/      # Teaching datasets used in notebooks
+├── raw/
+├── processed/
+└── sample/
 ```
 
-**Sample Dataset**
+## Synthetic Teaching Dataset
 
-See `sample/global_indicators_sample.csv` - a synthetic teaching dataset with global economic indicators.
-
-**Note:** Real datasets for assignments should be downloaded during the assignment, not committed to the repository.
+The file data/sample/global_indicators_sample.csv is a synthetic teaching dataset created for classroom exercises only. It should not be used for real empirical analysis or policy decisions.

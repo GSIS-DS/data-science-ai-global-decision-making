@@ -6,7 +6,7 @@ Complete these tasks before the first week of class.
 
 - [ ] Create a GitHub account at [github.com](https://github.com)
 - [ ] Sign into Google Colab at [colab.research.google.com](https://colab.research.google.com)
-- [ ] Test opening a notebook: [Week 1 Notebook](https://colab.research.google.com/github/GSIS-DS-Fall-2026/data-science-ai-global-decision-making/blob/main/notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb)
+- [ ] Test opening a notebook: [Week 1 Notebook](https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb)
 - [ ] Save a copy to your Google Drive to verify it works
 
 ## Optional but Recommended

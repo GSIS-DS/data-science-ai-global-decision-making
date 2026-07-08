@@ -1,46 +1,36 @@
-# Implementation Notes
+# Implementation Notes (Second Development Round)
 
-## What Was Created
+## 1. What Was Completed in This Round
 
-This initial commit establishes the complete repository structure for the Data Science and AI for Global Decision-Making course.
+- Updated course identity and public landing documentation for Spring 2027.
+- Reconciled syllabus description, outcomes, schedule, and assessment framework.
+- Corrected Week 8 to graded midterm status across course files.
+- Standardized assignment terminology and created missing integrated AI/text-data assignment file.
+- Updated capstone brief and rubric to match required tracks, deliverables, and milestones.
+- Updated notebooks index to Week 4 combining/reshaping naming.
+- Added missing week README index files and updated Colab links to main branch and GSIS-DS owner.
+- Updated labs and templates for bounded workflow and AI-use disclosure consistency.
+- Updated environment files and notebook smoke-test workflow to lightweight, required checks.
+- Updated citation metadata and instructor planning/status files.
 
-### Created Folders
+## 2. What Remains Intentionally Incomplete
 
-- `syllabus/` - Course documentation (description, outcomes, schedule, assessment, policies, AI use)
-- `getting-started/` - Setup guides (checklist, GitHub, Colab, Binder, troubleshooting)
-- `notebooks/week-01/` through `notebooks/week-04/` - Week notebooks with starter code
-- `notebooks/week-05-to-16/` - Placeholder for future materials
-- `labs/` - Four lab starters with templates
-- `assignments/` - Assignment outlines and capstone materials
-- `data/sample/` - Synthetic sample dataset
-- `examples/` - Example notebooks and AI verification
-- `resources/` - Cheatsheets, checklists, and reference materials
-- `templates/` - Project and assignment templates
-- `instructor/` - Development roadmap and status tracker
+- Full instructional notebooks for Weeks 5-16 are still under development.
+- Final date-specific LMS deadlines may be refined before Spring 2027 launch.
+- Private instructor-only detailed solutions and grading keys are not stored here by design.
 
-### Key Files
+## 3. Known Placeholders
 
-- `README.md` - Course landing page with CC-BY license
-- `LICENSE` - Creative Commons Attribution 4.0
-- `CITATION.cff` - Citation format
-- `requirements.txt` and `environment.yml` - Python dependencies
-- `.binder/requirements.txt` - Binder configuration
-- `.github/workflows/notebook-smoke-test.yml` - CI workflow
-- `data/sample/global_indicators_sample.csv` - Teaching dataset
-- Complete Week 1-4 notebooks with exercises
+- Public solution-instructor files in labs are placeholders only.
+- Slack workspace invite remains "To be announced".
+- Classroom 50 institutional setup remains a future administrative step.
 
-## Intentionally Incomplete
+## 4. Alignment with G-LEAP Final Report
 
-- Weeks 5-16 detailed materials (placeholder only)
-- Lab solutions (must be private instructor copies)
-- Assignment deadlines and submission links
-- Slack workspace link (to be added)
-- Classroom 50 configuration (not activated)
-- Real-world dataset downloads
+This round aligns the repository with the final report structure by synchronizing the course description, graded component design, schedule logic, capstone architecture, AI-governance language, and reproducibility-oriented implementation artifacts.
 
-## Recommended Next Steps
+## 5. Recommended Next Three Development Steps
 
-1. **Expand Week 5-16 materials** - Add detailed notebooks and examples
-2. **Create instructor solution files** - Populate private repository with solutions
-3. **Test Classroom 50 integration** - Set up assignment distribution system
-4. **Collect student feedback** - Test starter notebooks with pilot users
+1. Fully test Week 1-4 notebooks in clean Colab runtimes.
+2. Complete Week 5 visualization notebook/lab and Mini-project 1 release materials.
+3. Create private instructor copies of solutions/rubrics before course delivery.

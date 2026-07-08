@@ -10,45 +10,70 @@ jobs:
   smoke-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verify sample data exists
+      - name: Verify sample dataset exists
         run: |
-          test -f data/sample/global_indicators_sample.csv || exit 1
-          echo "Sample data file found"
+          test -f data/sample/global_indicators_sample.csv || { echo "Missing data/sample/global_indicators_sample.csv"; exit 1; }
 
-      - name: Validate notebooks are valid JSON
+      - name: Validate required notebooks are valid JSON
         run: |
-          python -c "
+          python - <<'PY'
           import json
-          import os
-          for root, dirs, files in os.walk('notebooks'):
-              for f in files:
-                  if f.endswith('.ipynb'):
-                      path = os.path.join(root, f)
-                      with open(path) as nb:
-                          json.load(nb)
-                          print(f'Valid: {path}')
-          "
+          from pathlib import Path
 
-      - name: Smoke test - load sample data
+          notebooks = [
+              Path("notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb"),
+              Path("notebooks/week-02/02_working_with_data_in_python.ipynb"),
+              Path("notebooks/week-03/03_cleaning_transforming_data.ipynb"),
+              Path("notebooks/week-04/04_combining_reshaping_global_data.ipynb"),
+          ]
+
+          for nb in notebooks:
+              if not nb.exists():
+                  raise SystemExit(f"Missing required notebook: {nb}")
+              with nb.open("r", encoding="utf-8") as f:
+                  json.load(f)
+              print(f"Valid notebook JSON: {nb}")
+          PY
+
+      - name: CSV smoke test for required columns
         run: |
-          python -c "
+          python - <<'PY'
           import pandas as pd
-          df = pd.read_csv('data/sample/global_indicators_sample.csv')
-          required_cols = ['country', 'iso3', 'year', 'gdp_growth', 'inflation', 'exports_usd_bn', 'imports_usd_bn', 'trade_openess_percent', 'unemployment_percent', 'exchange_rate_change_percent', 'internet_users_percent', 'co2_per_capita', 'region']
+
+          required_cols = [
+              "country",
+              "iso3",
+              "year",
+              "gdp_growth",
+              "inflation",
+              "exports_usd_bn",
+              "imports_usd_bn",
+              "trade_openess_percent",
+              "unemployment_percent",
+              "exchange_rate_change_percent",
+              "internet_users_percent",
+              "co2_per_capita",
+              "region",
+          ]
+
+          path = "data/sample/global_indicators_sample.csv"
+          df = pd.read_csv(path)
           missing = [c for c in required_cols if c not in df.columns]
           if missing:
-              raise ValueError(f'Missing columns: {missing}')
-          print(f'Sample data loaded successfully: {len(df)} rows, {len(df.columns)} columns')
-          "
+              raise SystemExit(f"CSV missing required columns: {missing}")
+
+          print(f"CSV smoke test passed: {len(df)} rows, {len(df.columns)} columns")
+          PY

@@ -1,51 +1,49 @@
-# AI Use Policy
+# AI-Use Policy
 
-This policy balances the productive use of AI tools with academic integrity and learning goals.
+This policy is practical and balanced. AI tools are welcome when they support learning, transparency, and analytical quality.
 
-## Permitted (No Declaration Required)
+## Permitted
 
-- Asking an LLM to explain concepts
-- Debugging code
-- Suggesting code structure
-- Improving comments or wording
-- Brainstorming questions
-- Translating materials
-- Checking readability
+- asking an LLM to explain concepts
+- debugging code
+- suggesting code structure
+- improving comments or wording
+- brainstorming questions
+- translating materials
+- checking readability
 
 ## Permitted with Disclosure and Verification
 
-When you use AI for these purposes, you must document your use and verify the output:
-
-- Code generation
-- Data extraction
-- Text classification
-- Summarization
-- Drafting visual captions
-- Drafting analytical prose
-- Bounded agent workflows
-
-## Required for Declared AI Use
-
-For assignments using AI in the above categories, include an AI Use Statement with:
-
-| Field | What to Include |
-|-------|-----------------|
-| Tool/Model | Name and version (e.g., "ChatGPT-4, Claude 3") |
-| Task Given | Brief description of your prompt |
-| Prompt Summary | Include the actual prompt or a close summary |
-| Output Used | Describe which output you incorporated |
-| How Checked | Verification method against data/sources |
-| Changes Made | What you modified or rejected |
-| Limitations | Remaining concerns about correctness or bias |
+- code generation
+- data extraction
+- text classification
+- summarization
+- drafting visual captions
+- drafting analytical prose
+- bounded agent workflows
 
 ## Not Permitted Without Explicit Instructor Approval
 
-- Submitting output you cannot explain or reproduce
-- Fabricated data, sources, citations, or results
+- submitting output that the student cannot explain
+- fabricated data, sources, citations, or results
 - AI-generated analysis not checked against underlying data
-- Undeclared AI use in graded assignments
-- Asking a model to complete an entire assignment as independent work
+- undeclared AI use where disclosure is required
+- asking a model to complete an entire assignment and presenting it as independent work
+- using external generative-AI tools during the Week 8 midterm unless explicitly authorized
 
-## Philosophy
+## Material AI Use Definition
 
-AI tools are powerful assistants, not substitutes for thinking. Use them to learn faster and work smarter, but always verify their contributions and ensure you understand what you submit.
+Material AI use means AI assistance that contributes substantively to code, data transformation, classification, interpretation, visual captions, submitted prose, or analytical decisions.
+
+## AI Use Statement Fields
+
+- assignment/project
+- tool/model used
+- date
+- task given to the tool
+- input or prompt summary
+- output used
+- verification steps
+- errors or limitations discovered
+- what was changed or rejected
+- final human decision/contribution

@@ -1,11 +1,21 @@
 # AI Workflow Card Template
 
-| Step | Description |
-|------|-------------|
-| Question | What decision problem am I addressing? |
-| Data Sources | What data will I use and where from? |
-| Tools | What methods/packages will I apply? |
-| Steps | What analytical steps will I follow? |
-| Draft Output | What will this produce? |
-| Verification Plan | How will I check results? |
-| Human Oversight | What requires human approval? |
+- Question:
+- Defined data/tools:
+- Analytical steps:
+- Draft output:
+- Verification:
+- Human decision:
+
+## AI Use Statement Fields
+
+- assignment/project
+- tool/model used
+- date
+- task given to the tool
+- input or prompt summary
+- output used
+- verification steps
+- errors or limitations discovered
+- what was changed or rejected
+- final human decision/contribution

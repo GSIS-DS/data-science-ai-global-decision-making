@@ -2,24 +2,24 @@
 
 Recommended structure for capstone project repositories.
 
-```
+```text
 project-root/
-├── README.md           # Project overview and instructions
-├── AI_USE.md           # AI use documentation
+├── README.md
+├── AI_USE.md
 ├── data/
-│   ├── raw/            # Original downloaded data
-│   └── processed/      # Cleaned/transformed data
-├── notebooks/          # Analysis notebooks
-├── outputs/            # Figures, reports, exports
-├── src/                # Reusable code (optional)
-└── docs/               # Documentation, data dictionary
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── outputs/
+├── src/
+└── docs/
 ```
 
-## README Requirements
+## README Should Include
 
-Include in your project README:
-- Project title and team members
-- Research question
-- Data sources
-- Key findings summary
-- How to run the analysis
+- Project title and team
+- Decision question
+- Data sources and limitations
+- Summary of method
+- Key findings and caveats
+- Run instructions

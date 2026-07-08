@@ -1,23 +1,28 @@
-# Individual Practical Assessment
+# Midterm: Individual Applied Data Analysis
 
-This assessment is diagnostic and developmental. It is **not graded**.
-
-## Purpose
-
-- Identify your strengths and gaps
-- Provide feedback before capstone stage
-- Practice core skills without pressure
+This is the Week 8 midterm. It is graded and completed individually.
 
 ## Format
 
-- Open-book practical tasks
-- Based on weeks 1-7 materials
-- Individual work
+- Small unseen but manageable dataset
+- Time-bounded in-class or supervised format
+- Reproducible notebook submission
 
-## Feedback
+## Tools and Permissions
 
-You will receive detailed feedback on:
-- Data handling skills
-- Visualization quality
-- Interpretation clarity
-- AI use documentation
+- External generative-AI tools are not permitted unless explicitly authorized.
+- Students may consult specified course materials, a limited reference sheet, and official documentation if permitted by the instructor.
+
+## Assessed Skills
+
+- Data loading and inspection
+- Data-quality checks
+- Transformation and filtering
+- Summary statistics
+- Visualization
+- Interpretation and limitations
+- Reproducibility practices
+
+## Weight
+
+20% of the course grade.

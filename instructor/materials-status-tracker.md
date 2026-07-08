@@ -1,31 +1,22 @@
 # Materials Status Tracker
 
-## Complete
+## Course-Ready Beta (This Round)
 
-| File | Status | Notes |
-|------|--------|-------|
-| README.md | Complete | Main landing page |
-| syllabus/README.md | Complete | Links to all syllabus files |
-| syllabus/course-description.md | Complete | Course overview |
-| syllabus/learning-outcomes.md | Complete | 10 learning outcomes |
-| syllabus/schedule.md | Complete | 16-week outline |
-| syllabus/assessment.md | Complete | Weightings documented |
-| syllabus/policies.md | Complete | Academic policies |
-| syllabus/ai-use-policy.md | Complete | Three-category policy |
+- README and syllabus core files updated for Spring 2027 course identity.
+- Assessment framework aligned with graded Week 8 midterm and final weighting.
+- Week 1-4 representative notebooks and links aligned.
+- Labs and assignment files aligned to naming and sequence.
+- Capstone brief and rubric aligned to final report structure.
+- Environment files and smoke-test workflow aligned to lightweight checks.
 
-## Starter Materials
+## Intentional Placeholders
 
-| File | Status | Notes |
-|------|--------|-------|
-| notebooks/week-01/ | Complete | Intro and workflow |
-| notebooks/week-02/ | Complete | pandas basics |
-| notebooks/week-03/ | Complete | Data cleaning |
-| notebooks/week-04/ | Complete | Visualization |
+- Weeks 5-16 full notebook buildout remains under development.
+- Public solution files remain placeholders only.
+- LMS operational timelines and exact due dates may be refined before launch.
 
-## Placeholders
+## Must Be Private Before Delivery
 
-| File | Status | Notes |
-|------|--------|-------|
-| notebooks/week-05-to-16/ | Placeholder | Under development |
-| labs/ | Starter only | Solutions need instructor copies |
-| assignments/ | Outline only | Details pending
+- Detailed grading keys
+- Instructor-only solution notebooks
+- Internal moderation notes

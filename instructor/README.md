@@ -1,10 +1,12 @@
-# Instructor Resources
+# Instructor Notes and Development Files
 
-**Warning: Solution files (solution-instructor.md) should not contain real answers in the public repository. Replace with private copies before deployment.**
+Do not store confidential grading keys, private student information, API keys, or unreleased solutions in this public repository.
 
-## Contents
+## Files
 
-- [course-development-roadmap.md](course-development-roadmap.md) - Future expansion plan
-- [materials-status-tracker.md](materials-status-tracker.md) - What's complete vs placeholder
-- [classroom50-preparation.md](classroom50-preparation.md) - Assignment system checklist
-- [future-development-notes.md](future-development-notes.md) - Ongoing work notes
+- course-development-roadmap.md
+- materials-status-tracker.md
+- classroom50-preparation.md
+- future-development-notes.md
+
+All student-facing solution files in public folders should remain placeholders and be replaced with private instructor copies before delivery.

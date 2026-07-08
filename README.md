@@ -1,84 +1,79 @@
 # Data Science and AI for Global Decision-Making
 
 ## Python, Evidence, and Intelligent Tools for Business, Policy, and International Affairs
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GSIS-DS-Fall-2026/data-science-ai-global-decision-making/blob/main/notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GSIS-DS-Fall-2026/data-science-ai-global-decision-making/main) [![Slack](https://img.shields.io/badge/Slack-Join%20Workspace-4A154B?logo=slack)](https://eclass.sogang.ac.kr/) [![DataCamp](https://shields.io)[(https://eclass.sogang.ac.kr/](https://app.datacamp.com/)) [![Sogang LMS](https://img.shields.io/badge/Sogang%20LMS-Go%20to%20LMS-00599C?logo=googleclassroom)](https://eclass.sogang.ac.kr/)
 
-This course introduces practical data-science
+Proposed offering: Spring 2027  
+Development period: Fall 2026
 
-This is not a programming-only course. Programming is a tool for answering real analytical questions.
+This course introduces practical data-science and responsible-AI workflows for analyzing global economic, business, policy, and international-affairs questions. Students use Python and real-world datasets to clean, visualize, interpret, and communicate evidence; apply introductory predictive and text-analysis methods; and evaluate the strengths and limitations of large language models and bounded agent workflows. The course emphasizes reproducibility, data ethics, analytical judgment, and professional communication. No prior programming experience is required; introductory statistics or equivalent quantitative literacy is recommended.
 
-### Audience
+This is not a Python-only or software-engineering course. Python is used as a practical tool for answering global decision-making questions.
 
-- Intended for second- and third-year undergraduates at Sogang University's Geppert School of International Studies
-- Open to International Commerce, International Relations, global business, public policy, development, finance, sustainability, and international affairs students
-- Introductory statistics or equivalent quantitative literacy is recommended
-- No prior programming experience is required
+## Audience and Prerequisites
 
-### What Students Will Be Able to Do
+Audience: Second- and third-year undergraduate students, especially students from International Commerce, International Relations, Asian Studies, Economics, Business, Public Policy, and related fields.
+
+Prerequisite: Introductory Statistics or equivalent quantitative literacy is recommended. No prior programming experience is required.
+
+## What Students Will Learn
 
 By the end of the course, students will be able to:
 
-1. Formulate a focused, answerable question about a global business, policy, or international-affairs issue
-2. Locate, inspect, document, and evaluate real-world data sources
-3. Use Python and pandas to import, clean, transform, merge, and summarize tabular data
-4. Create accurate, interpretable, and ethically responsible visualizations
-5. Apply basic statistical reasoning and introductory predictive analysis appropriately
-6. Distinguish descriptive evidence, association, prediction, and causal claims
-7. Conduct basic text analysis using structured, transparent workflows
-8. Use LLMs productively while checking code, claims, sources, calculations, and interpretations
-9. Design and evaluate a bounded agent-like workflow that uses clearly specified inputs, tools, and human oversight
-10. Produce a reproducible analytical project and communicate conclusions clearly to a non-technical decision-maker
+1. Formulate focused, answerable questions about global business, policy, and international-affairs issues.
+2. Locate, inspect, document, and evaluate real-world data sources.
+3. Use Python and pandas for cleaning, transformation, summarization, and integration of tabular data.
+4. Build accurate and ethically responsible visualizations and interpretations.
+5. Apply basic statistical reasoning, introductory prediction, and text-data methods.
+6. Use LLMs and bounded workflows responsibly with verification and human oversight.
+7. Produce reproducible analysis and communicate conclusions to non-technical decision-makers.
 
-### Quick Start
+## Course Workflow
 
-1. Read the [syllabus](syllabus/README.md)
-2. Complete the [Data Readiness Tasks](getting-started/setup-checklist.md)
-3. Set up a [GitHub account](getting-started/github-basics.md)
-4. Open [Week 1 in Google Colab](notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb)
-5. Join Slack when the course link is published
+GitHub repository -> Google Colab notebook -> saved analysis -> GitHub/LMS submission
 
-### Course Workflow
+## Quick Start
 
-```
-GitHub repository → Google Colab → save/commit work → submit through assigned private repository
-```
+1. Read the [Syllabus](syllabus/README.md).
+2. Review the [Schedule](syllabus/schedule.md).
+3. Complete [Data Readiness Tasks](assignments/data-readiness-task.md).
+4. Set up GitHub using [Getting Started](getting-started/README.md).
+5. Open [Week 1 in Colab](https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb).
+6. Review the [AI-Use Policy](syllabus/ai-use-policy.md).
+7. Join Slack when the link is announced.
 
-### Links
+## Course Links
 
 - [Syllabus](syllabus/README.md)
 - [Schedule](syllabus/schedule.md)
+- [Assessment](syllabus/assessment.md)
+- [AI-Use Policy](syllabus/ai-use-policy.md)
 - [Getting Started](getting-started/README.md)
 - [Notebooks](notebooks/README.md)
 - [Labs](labs/README.md)
 - [Assignments](assignments/README.md)
+- [Capstone](assignments/capstone/README.md)
 - [Resources](resources/README.md)
-- [Capstone Project](assignments/capstone/README.md)
-- [AI Use Policy](syllabus/ai-use-policy.md)
+- [Templates](templates/README.md)
 
-### Course Communication
+## Course Communication
 
-Slack workspace link: To be announced
+- LMS is official for grades and formal announcements.
+- Slack workspace link: To be announced.
+- Slack is supplementary only.
 
-### Repository Status
+## Repository Status
 
-- The first four weeks include representative starter materials
-- Later materials are under active development
-- The repository will be updated before and during the course
+- Weeks 1-4 include representative starter materials.
+- Later weekly materials are under development.
+- Labs, templates, and capstone materials are course-ready beta versions.
+- Materials may be updated before and during Spring 2027.
 
-### Acknowledgments
+## License and Attribution
 
-This course draws inspiration from and acknowledges the following open educational resources:
+Repository code and teaching materials are licensed under [CC BY 4.0](LICENSE).
 
-- [Data Science for Public Policy](https://github.com/corybaird/datascience-publicpolicy-2026) by Cory Baird
-- [Geospatial Data in R](https://github.com/JoshMerfeld/geospatialdataR) by Josh Merfeld
-- [Data Visualization](https://github.com/KDIS-DSPPM/data-visualization) by Jae Yeon Kim
+Third-party datasets and external resources remain under their original licenses.
 
-### License
+The sample dataset in [data/sample](data/sample/README.md) is synthetic teaching data.
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
----
-
-*Instructor: Iegor Vyshnevskyi, Sogang University / Geppert School of International Studies*
+Course lead: Iegor Vyshnevskyi, Sogang University / Geppert School of International Studies.

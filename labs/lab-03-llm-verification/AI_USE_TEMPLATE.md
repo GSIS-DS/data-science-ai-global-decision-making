@@ -1,13 +1,12 @@
-# AI Use Template
+# AI Use Statement Template
 
-Use this template for any assignment involving AI tools.
-
-| Field | Your Response |
-|-------|---------------|
-| Tool/Model | |
-| Task Given | |
-| Prompt Summary | |
-| Output Used | |
-| How Checked | |
-| Changes Made | |
-| Limitations | |
+- assignment/project:
+- tool/model used:
+- date:
+- task given to the tool:
+- input or prompt summary:
+- output used:
+- verification steps:
+- errors or limitations discovered:
+- what was changed or rejected:
+- final human decision/contribution:

@@ -1,17 +1,23 @@
 # Student Project Template
 
-Starter repository structure for capstone projects.
+Use this structure for capstone or applied projects.
 
-## Structure
-
+```text
+student-project-template/
+├── README.md
+├── AI_USE.md
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── outputs/
+├── src/
+└── docs/
 ```
-data/
-├── raw/         # Put downloaded data here
-└── processed/   # Cleaned data for analysis
-notebooks/
-outputs/
-src/
-docs/
-```
 
-Replace this README with your project documentation.
+## Recommended Use
+
+- Keep raw and processed data separate.
+- Store reproducible analysis in notebooks.
+- Keep exported figures/tables in outputs.
+- Document methods and limitations in README/docs.

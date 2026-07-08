@@ -1,24 +1,29 @@
-# Assignment 1: Data Cleaning and Documentation
+# Mini-project 1: Data Cleaning and Documentation
 
-Clean and document a messy dataset.
+## Purpose
 
-## Task
+Apply Weeks 2-6 skills to clean, document, and justify data preparation choices for a global question.
 
-1. Load the provided dataset
-2. Identify and handle missing values
-3. Check for duplicates
-4. Create at least one derived variable
-5. Summarize by groups
-6. Write a brief data diary documenting transformations
+## Core Tasks
+
+1. Load and inspect a provided or approved dataset.
+2. Identify missingness, duplicates, and type issues.
+3. Perform documented cleaning and transformation steps.
+4. Create at least one derived variable.
+5. Produce summary outputs that confirm data readiness.
+6. Write a concise cleaning log and limitations note.
 
 ## Deliverables
 
-- Completed notebook with all steps
-- Data quality assessment notes
+- Reproducible notebook
+- Data dictionary updates
+- Cleaning log
 - AI Use Statement (if applicable)
 
-## Due
+## Timing
 
-Date to be announced.
+- Preview/examples: Week 5
+- Brief released: Week 6
+- Due: Week 8
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GSIS-DS-Fall-2026/data-science-ai-global-decision-making/blob/main/templates/assignment-template/starter.ipynb)
+Starter template: https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/templates/assignment-template/starter.ipynb

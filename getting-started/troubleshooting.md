@@ -27,7 +27,7 @@ files.download('/content/')  # For downloading
 Or load directly from URL:
 ```python
 import pandas as pd
-df = pd.read_csv('https://raw.githubusercontent.com/GSIS-DS-Fall-2026/data-science-ai-global-decision-making/main/data/sample/global_indicators_sample.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/GSIS-DS/data-science-ai-global-decision-making/main/data/sample/global_indicators_sample.csv')
 ```
 
 ### Kernel Keeps Dying

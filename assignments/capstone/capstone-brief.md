@@ -1,12 +1,10 @@
-# Capstone Project Brief
+# Final Team Capstone Project Brief
 
-## Objective
+## Goal
 
-Answer a real global decision-making question using data science and AI tools.
+Answer a real global decision-making question through transparent, reproducible, and responsible analysis.
 
-## Tracks
-
-Choose one focus area:
+## Approved Tracks
 
 - Trade and market entry
 - International finance and macroeconomic risk
@@ -17,45 +15,21 @@ Choose one focus area:
 - Financial, corporate, or ESG data
 - Text and communication analysis
 
-## Requirements
+## Required Deliverables
 
-### 1. GitHub Repository
-- Well-organized code and documentation
-- Reproducible notebooks
-- Clear commit history
+1. Well-organized GitHub repository.
+2. Reproducible Python notebook or report.
+3. Data dictionary.
+4. Visual executive report or dashboard-style output.
+5. Two-page decision memo.
+6. AI Workflow Card.
+7. Short final presentation.
+8. Individual reflection or short defense.
 
-### 2. Analytical Notebook/Report
-- Clean, documented analysis
-- All data transformations explained
-- Visualizations with proper design
+## Milestone Schedule
 
-### 3. Data Dictionary
-- All sources attributed
-- Variables documented
-- Limitations noted
-
-### 4. Visual Executive Report
-- Dashboard or report format
-- Suitable for non-technical audience
-
-### 5. Decision Memo (2 pages)
-- Recommendation for decision-maker
-- Key evidence summarized
-- Limitations acknowledged
-
-### 6. AI Workflow Card
-- Document AI use in analysis
-- Verification steps shown
-
-### 7. Final Presentation
-- 10-15 minute team presentation
-- Visual focus
-- Q&A prepared
-
-## Timeline
-
-- Week 9: Project proposals due
-- Week 11: Midpoint check-in
-- Week 14: Draft submission
-- Week 15: Peer review
-- Week 16: Final presentations
+- Week 10: teams and preliminary topic confirmed.
+- Week 13: capstone progress check and AI Workflow Card draft.
+- Week 14: capstone draft peer review.
+- Week 15: final repository, notebook/report, data dictionary, decision memo, visual outputs, and AI Workflow Card due.
+- Week 16: presentation and individual defense/reflection.

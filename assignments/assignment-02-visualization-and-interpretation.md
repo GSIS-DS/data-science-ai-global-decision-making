@@ -1,21 +1,25 @@
-# Assignment 2: Visualization and Interpretation
+# Mini-project 2: Visualization, Interpretation, and Communication
 
-Create and explain visualizations for a global issue.
+## Purpose
 
-## Task
+Convert analysis into decision-relevant visuals and interpretation while avoiding overclaiming.
 
-1. Select a global issue (trade, development, policy, etc.)
-2. Create at least two visualizations
-3. Include proper titles, labels, and sources
-4. Identify and fix one misleading chart
-5. Write a brief interpretation without causal claims
+## Core Tasks
+
+1. Build at least two clear visualizations tied to one global analytical question.
+2. Apply good title, axis, unit, and source labeling practice.
+3. Include one revision from an initially weak or misleading chart.
+4. Provide interpretation that distinguishes description, association, and uncertainty.
+5. Include short communication text for a non-technical audience.
 
 ## Deliverables
 
-- Completed notebook with visualizations
-- Discussion of chart improvements
+- Reproducible notebook/report
+- Visual outputs
+- Interpretation notes
 - AI Use Statement (if applicable)
 
-## Due
+## Timing
 
-Date to be announced.
+- Brief released: Week 10
+- Due: Week 13

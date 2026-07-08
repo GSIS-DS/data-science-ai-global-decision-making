@@ -1,5 +1,5 @@
-# Lab 2: Visualization
+# Lab 02: Visualization (Week 5 Alignment)
 
-Create and improve visualizations for global data.
+This lab supports Week 5 exploratory analysis and visualization practice.
 
-[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GSIS-DS-Fall-2026/data-science-ai-global-decision-making/blob/main/labs/lab-02-visualization/starter.ipynb)
+Starter notebook (Colab): https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/labs/lab-02-visualization/starter.ipynb

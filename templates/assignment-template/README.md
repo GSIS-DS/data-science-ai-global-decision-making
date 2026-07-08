@@ -1,8 +1,6 @@
 # Assignment Template
 
-Use this template for weekly assignments.
+This folder provides a reusable assignment starter structure.
 
-## Structure
-
-- Replace this README with assignment-specific instructions
-- Edit starter.ipynb for your work
+- starter.ipynb: reusable notebook scaffold
+- AI_USE.md: AI disclosure template for material AI use

@@ -1,24 +1,13 @@
-# Classroom 50 Preparation
+# Classroom 50 Preparation Checklist
 
-Checklist for using Classroom 50 or similar GitHub-based assignment systems.
+This repository is prepared for later GitHub-based assignment distribution.
 
-## Repository Requirements
+## Pre-Launch Checklist
 
-- [ ] All assignment templates in `templates/assignment-template/`
-- [ ] Clear README with assignment instructions
-- [ ] Starter notebooks for each assignment
-- [ ] Tests/verification scripts for CI
+- Confirm assignment templates and naming conventions.
+- Create private starter repositories if required by institutional workflow.
+- Verify permission settings for student repositories.
+- Verify rubric mapping between LMS and GitHub activity.
+- Pilot one assignment lifecycle end-to-end.
 
-## Configuration
-
-- [ ] Create classroom roster (manual or automated)
-- [ ] Set up assignment distribution
-- [ ] Configure deadline extensions
-- [ ] Test submission workflow
-
-## Best Practices
-
-- Use private repositories for student work
-- Provide AI use templates
-- Include rubrics in assignment descriptions
-- Set up automated feedback where possible
+No external Classroom 50 institutional setup is configured in this public repository.
