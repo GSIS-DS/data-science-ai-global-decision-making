@@ -2,6 +2,16 @@
 
 If you have no programming background, DataCamp offers excellent introductory modules.
 
+## Create a DataCamp Account (Step-by-Step)
+
+1. Go to [app.datacamp.com](https://app.datacamp.com/).
+2. Click **Sign Up** (or use Google/LinkedIn sign-in).
+3. Complete email verification if requested.
+4. Choose learner preferences and introductory skill level.
+5. Search for Python beginner content and save a short learning path.
+
+Note: A free account is enough for orientation. Some courses may require a paid plan depending on DataCamp policy.
+
 ## Recommended Modules
 
 - Introduction to Python

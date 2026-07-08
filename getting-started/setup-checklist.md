@@ -11,9 +11,10 @@ Complete these tasks before the first week of class.
 
 ## Optional but Recommended
 
-- [ ] Complete DataCamp primer if you have no programming background
+- [ ] Create a DataCamp account and complete one short primer: [DataCamp Readiness](datacamp-readiness.md)
 - [ ] Explore Binder if you prefer local Jupyter installation
-- [ ] Join Slack (link to be announced)
+- [ ] Set up Slack account and app: [Slack Setup](slack-setup.md)
+- [ ] Join Slack workspace when invite is announced
 
 ## Verification
 

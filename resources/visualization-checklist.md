@@ -9,6 +9,7 @@ Before finalizing any chart, verify:
 - [ ] Source attribution
 - [ ] Legend if needed (clear and readable)
 - [ ] Appropriate chart type for data
+- [ ] If helpful, consulted external chart-selection references (for example: https://www.data-to-viz.com/) to choose an appropriate visualization
 
 ## Design
 

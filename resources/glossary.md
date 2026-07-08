@@ -20,6 +20,28 @@
 
 **Prompt** - Input to an AI system
 
-**Verfication** - Checking AI output against evidence or by independent means
+**Verification** - Checking AI output against evidence or by independent means
 
 **Bounded agent** - Structured workflow with defined inputs, tools, and human oversight
+
+## Repository and Workflow Terms
+
+**src** - Folder for reusable source code (for example, helper functions used across notebooks)
+
+**docs** - Folder for project documentation, notes, and supporting write-ups
+
+**outputs** - Folder for exported figures, tables, reports, or presentation-ready files
+
+**raw data** - Original data files before cleaning or transformation
+
+**processed data** - Cleaned or transformed data used for analysis
+
+**README** - Main documentation file that explains what a folder or repository contains and how to use it
+
+**.gitkeep** - Placeholder file used to keep otherwise empty folders tracked in Git
+
+**notebook (.ipynb)** - Interactive file that combines code, output, and explanatory text
+
+**commit** - Saved snapshot of changes in a Git repository
+
+**branch** - Parallel line of development in Git used to work on changes safely

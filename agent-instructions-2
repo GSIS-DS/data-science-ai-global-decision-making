@@ -1,0 +1,809 @@
+You are completing the second development round for the public GitHub repository of a new undergraduate course at Sogang University’s Geppert School of International Studies.
+
+Repository:
+
+https://github.com/GSIS-DS/data-science-ai-global-decision-making
+
+Course title:
+
+# Data Science and AI for Global Decision-Making
+
+Subtitle:
+
+Python, Evidence, and Intelligent Tools for Business, Policy, and International Affairs
+
+Proposed offering:
+
+Spring 2027
+
+Development period:
+
+Fall 2026
+
+The repository was created from an initial skeleton. Your task is now to bring it to a course-ready beta state consistent with the final G-LEAP course-development report. Do not redesign the course. Do not create unrelated features. Reconcile, complete, clean, and polish the existing repository.
+
+Important correction from the first-round instructions:
+
+The initial instructions described Week 8 as an ungraded diagnostic. This is now outdated. Week 8 must be treated throughout the repository as a graded midterm individual applied data-analysis assessment worth 20% of the course grade.
+
+Also update all references from `GSIS-DS-Fall-2026` to:
+
+`GSIS-DS`
+
+and ensure all repository links use:
+
+`https://github.com/GSIS-DS/data-science-ai-global-decision-making`
+
+Use the `main` branch in all Colab links.
+
+## 1. Main objective
+
+Complete the repository so that it functions as a coherent public course hub and implementation artifact for the G-LEAP final report.
+
+The repository should include:
+
+1. A polished README that accurately presents the course.
+2. A complete syllabus folder matching the final report.
+3. A correct 16-week schedule.
+4. A consistent assessment framework.
+5. Representative starter notebooks for the first four weeks.
+6. Labs and assignments with clear instructions.
+7. A synthetic sample dataset and data dictionary.
+8. AI-use policy and AI Workflow Card templates.
+9. Capstone brief, rubric, and templates.
+10. Resource guides and checklists.
+11. Instructor-facing roadmap and status tracker.
+12. Valid Colab links.
+13. Valid notebooks.
+14. Minimal, working environment files.
+15. A GitHub Actions smoke test.
+16. Implementation notes documenting what is complete and what remains intentionally in development.
+
+Do not add private information, real student data, API keys, tokens, paid-service dependencies, or confidential grading answers.
+
+## 2. Required course identity
+
+Use the following course description consistently in `README.md`, `syllabus/course-description.md`, and relevant syllabus documents:
+
+“This course introduces practical data-science and responsible-AI workflows for analyzing global economic, business, policy, and international-affairs questions. Students use Python and real-world datasets to clean, visualize, interpret, and communicate evidence; apply introductory predictive and text-analysis methods; and evaluate the strengths and limitations of large language models and bounded agent workflows. The course emphasizes reproducibility, data ethics, analytical judgment, and professional communication. No prior programming experience is required; introductory statistics or equivalent quantitative literacy is recommended.”
+
+Audience:
+
+Second- and third-year undergraduate students, especially students from International Commerce, International Relations, Asian Studies, Economics, Business, Public Policy, and related fields.
+
+Do not frame the course as only for International Commerce.
+
+Prerequisite statement:
+
+Introductory Statistics or equivalent quantitative literacy is recommended. No prior programming experience is required.
+
+## 3. README requirements
+
+Rewrite or polish the main `README.md` so that it functions as the public course landing page.
+
+It must include:
+
+1. Course title and subtitle.
+
+2. Proposed offering: Spring 2027.
+
+3. Concise course description.
+
+4. Statement that this is not a Python-only or software-engineering course.
+
+5. Audience and prerequisite information.
+
+6. “What students will learn” section.
+
+7. Course workflow in plain text:
+
+   GitHub repository → Google Colab notebook → saved analysis → GitHub/LMS submission
+
+8. Quick-start section:
+
+   * Read the syllabus.
+   * Review the schedule.
+   * Complete Data Readiness Tasks.
+   * Set up GitHub.
+   * Open Week 1 in Colab.
+   * Review the AI-use policy.
+   * Join Slack when the link is announced.
+
+9. Links to:
+
+   * syllabus
+   * schedule
+   * assessment
+   * AI-use policy
+   * getting-started guide
+   * notebooks
+   * labs
+   * assignments
+   * capstone
+   * resources
+   * templates
+
+10. Communication section:
+
+* LMS is official for grades and formal announcements.
+* Slack workspace link: To be announced.
+* Slack is supplementary only.
+
+11. Repository status section:
+
+* Weeks 1–4 include representative starter materials.
+* Later weekly materials are under development.
+* Labs, templates, and capstone materials are course-ready beta versions.
+* Materials may be updated before and during Spring 2027.
+
+12. License and attribution:
+
+* State that code/materials are under the repository license.
+* Third-party data remain under their original licenses.
+* The sample dataset is synthetic teaching data.
+
+Keep the README professional, concise, and navigable. Avoid excessive badges, emojis, or decorative language.
+
+## 4. Syllabus folder consistency
+
+Ensure the `syllabus/` folder contains and updates:
+
+* `README.md`
+* `course-description.md`
+* `learning-outcomes.md`
+* `schedule.md`
+* `assessment.md`
+* `policies.md`
+* `ai-use-policy.md`
+
+Use the following learning outcomes in `learning-outcomes.md`:
+
+By the end of the course, students should be able to:
+
+1. Formulate a focused, answerable question about a global business, policy, or international-affairs issue.
+2. Locate, inspect, document, and evaluate real-world data sources.
+3. Use Python and pandas to import, clean, transform, merge, and summarize tabular data.
+4. Create accurate, interpretable, and ethically responsible visualizations.
+5. Apply basic statistical reasoning and introductory predictive analysis appropriately.
+6. Distinguish descriptive evidence, association, prediction, and causal claims.
+7. Conduct basic text analysis using structured, transparent workflows.
+8. Use LLMs productively while checking code, claims, sources, calculations, and interpretations.
+9. Design and evaluate a bounded agent-like workflow that uses clearly specified inputs, tools, and human oversight.
+10. Produce a reproducible analytical project and communicate conclusions clearly to a non-technical decision-maker.
+
+## 5. Correct final assessment framework
+
+Update `syllabus/assessment.md`, `assignments/README.md`, and any related files to use this grading scheme:
+
+| Component                                                        | Weight |
+| ---------------------------------------------------------------- | -----: |
+| Data Readiness Tasks and weekly lab engagement                   |    15% |
+| Mini-project 1: Data Cleaning and Documentation                  |    10% |
+| Midterm: Individual Applied Data Analysis                        |    20% |
+| Mini-project 2: Visualization, Interpretation, and Communication |    10% |
+| AI Verification and Text-Data Exercise                           |    15% |
+| Final Team Capstone Project                                      |    25% |
+| Individual Capstone Defense or Reflection                        |     5% |
+| Total                                                            |   100% |
+
+Important:
+
+* Week 8 is graded.
+* Do not describe Week 8 as ungraded or diagnostic only.
+* It may still have a developmental feedback function, but it is a formal graded midterm.
+* Data Readiness Tasks are part of the 15% readiness/lab-engagement component.
+* Mini-project 2 must appear in assignments and rubrics.
+* AI Verification and Text-Data Exercise should be treated as one integrated graded component worth 15%.
+
+Add this explanation:
+
+“The exact operational details may be adjusted before the final Spring 2027 syllabus is published, but the course design preserves the balance among individual competence, cumulative applied work, responsible AI use, and team-based capstone performance.”
+
+## 6. Correct 16-week schedule
+
+Update `syllabus/schedule.md`, Appendix-style schedule files if any, and all related README links so they use the following final sequence.
+
+Use columns:
+
+Week | Topic | Learning objective | Learning content / method | Assignment / activity
+
+Schedule:
+
+Week 1: Data, AI, and Evidence for Global Decision-Making
+Assignment/activity: In-class interpretation activity; set up GitHub and Colab.
+
+Week 2: Working with Data in Python
+Assignment/activity: DRT 1; small CSV inspection notebook.
+
+Week 3: Cleaning and Transforming Data
+Assignment/activity: DRT 2; cleaning log exercise.
+
+Week 4: Combining and Reshaping Global Data
+Assignment/activity: Guided merge lab; project-question brainstorming.
+
+Week 5: Exploratory Analysis and Visualization
+Assignment/activity: DRT 3; visualization critique and revision; Mini-project 1 preview and examples.
+
+Week 6: Global Data Sources and Reproducibility
+Assignment/activity: Mini-project 1 brief released; Data Readiness Task 4.
+
+Week 7: Statistical Reasoning for Applied Analysts
+Assignment/activity: Applied analysis workshop.
+
+Week 8: Midterm: Individual Applied Data Analysis
+Assignment/activity: Graded midterm individual applied data-analysis assessment; Mini-project 1 due.
+
+Week 9: Prediction for Decision-Making
+Assignment/activity: Model-evaluation notebook.
+
+Week 10: Interpretable Machine Learning and Ethical Limits
+Assignment/activity: Mini-project 2 brief released; capstone teams and preliminary topic selection confirmed.
+
+Week 11: Text as Data
+Assignment/activity: Text-data lab.
+
+Week 12: LLMs as Analytical Assistants
+Assignment/activity: AI Verification and Text-Data Exercise released / completed according to assignment instructions.
+
+Week 13: Bounded Agents and Workflow Design
+Assignment/activity: Mini-project 2 due; bounded-agent workflow prototype; capstone progress check; AI Workflow Card draft.
+
+Week 14: From Analysis to Decision Communication
+Assignment/activity: Capstone draft peer review.
+
+Week 15: Capstone Studio
+Assignment/activity: Final capstone repository, reproducible notebook or report, data dictionary, executive memo, and AI Workflow Card due; presentation rehearsal and final peer feedback.
+
+Week 16: Final: Global Data Challenge Presentations
+Assignment/activity: Capstone presentation; peer review; individual capstone defense/reflection.
+
+Ensure no file still says:
+
+* Week 8 is ungraded.
+* Week 8 is only diagnostic.
+* Mini-project 1 is released twice.
+* Mini-project 2 has no due date.
+* Week 15 is the presentation week.
+* Week 16 is only reflection without presentation.
+
+## 7. Data Readiness Tasks
+
+Update or create:
+
+`assignments/data-readiness-task.md`
+
+It should include four tasks:
+
+DRT 1: Python and notebooks
+Timing: Before / during Week 2
+Check: Load a CSV; inspect rows and columns; calculate one summary statistic.
+
+DRT 2: Tabular data
+Timing: Before Week 3
+Check: Create a subset and explain a data-quality issue.
+
+DRT 3: Statistics in Python
+Timing: Before Week 5
+Check: Produce one table and one chart with a short interpretation.
+
+DRT 4: GitHub workflow
+Timing: During or immediately after Week 6
+Check: Update a notebook and submit a repository link.
+
+Make clear that these are readiness and engagement tasks, not a separate programming course.
+
+## 8. Assignments
+
+Update or create the following assignment files:
+
+* `assignments/assignment-01-data-cleaning.md`
+* `assignments/assignment-02-visualization-and-interpretation.md`
+* `assignments/individual-practical-assessment.md`
+* `assignments/ai-verification-text-data-exercise.md`
+* `assignments/capstone/capstone-brief.md`
+* `assignments/capstone/capstone-rubric.md`
+* `assignments/capstone/decision-memo-template.md`
+* `assignments/capstone/AI_WORKFLOW_CARD_TEMPLATE.md`
+* `assignments/capstone/project-repository-template.md`
+
+Use this terminology consistently:
+
+* “Mini-project 1: Data Cleaning and Documentation”
+* “Midterm: Individual Applied Data Analysis”
+* “Mini-project 2: Visualization, Interpretation, and Communication”
+* “AI Verification and Text-Data Exercise”
+* “Final Team Capstone Project”
+* “Individual Capstone Defense or Reflection”
+
+The individual practical assessment file must state:
+
+* It is the Week 8 midterm.
+* It is graded.
+* It is individual.
+* It uses a small unseen but manageable dataset.
+* External generative-AI tools are not permitted unless explicitly authorized.
+* Students may consult specified course materials, a limited reference sheet, and official documentation if permitted.
+* It assesses data loading, inspection, quality checks, transformation/filtering, summary statistics, visualization, interpretation, reproducibility, and limitations.
+
+## 9. Representative activity sequence
+
+In `assignments/README.md`, include a clean representative activity sequence table with these rows:
+
+1. Data Readiness Task 1
+2. Data Cleaning Clinic
+3. Visualization Critique
+4. Mini-project 1: Data Cleaning and Documentation
+5. Midterm: Individual Applied Data Analysis
+6. Mini-project 2: Visualization, Interpretation, and Communication
+7. AI Verification and Text-Data Exercise
+8. Bounded-Agent Prototype
+9. Capstone Project
+
+Do not leave blank rows. Do not split the AI Verification and Text-Data Exercise into an unnamed second row. Make the integrated nature of the AI/text-data assignment clear.
+
+## 10. AI-use policy
+
+Update `syllabus/ai-use-policy.md`, `syllabus/policies.md`, and all AI templates.
+
+The policy should be balanced and practical.
+
+Categories:
+
+Permitted:
+
+* asking an LLM to explain concepts
+* debugging code
+* suggesting code structure
+* improving comments or wording
+* brainstorming questions
+* translating materials
+* checking readability
+
+Permitted with disclosure and verification:
+
+* code generation
+* data extraction
+* text classification
+* summarization
+* drafting visual captions
+* drafting analytical prose
+* bounded agent workflows
+
+Not permitted without explicit instructor approval:
+
+* submitting output that the student cannot explain
+* fabricated data, sources, citations, or results
+* AI-generated analysis not checked against underlying data
+* undeclared AI use where disclosure is required
+* asking a model to complete an entire assignment and presenting it as independent work
+* using external generative-AI tools during the Week 8 midterm unless explicitly authorized
+
+Define “material AI use”:
+
+“Material AI use means AI assistance that contributes substantively to code, data transformation, classification, interpretation, visual captions, submitted prose, or analytical decisions.”
+
+AI Use Statement fields:
+
+* assignment/project
+* tool/model used
+* date
+* task given to the tool
+* input or prompt summary
+* output used
+* verification steps
+* errors or limitations discovered
+* what was changed or rejected
+* final human decision/contribution
+
+## 11. Sample dataset
+
+Check or create:
+
+`data/sample/global_indicators_sample.csv`
+
+Create a realistic but fictional synthetic teaching dataset with approximately 30–40 observations across several countries and years.
+
+Required columns:
+
+* country
+* iso3
+* year
+* gdp_growth
+* inflation
+* exports_usd_bn
+* imports_usd_bn
+* trade_openess_percent
+* unemployment_percent
+* exchange_rate_change_percent
+* internet_users_percent
+* co2_per_capita
+* region
+
+Important:
+
+* Keep `trade_openess_percent` spelled exactly this way if it already exists in notebooks. If changing it to `trade_openness_percent`, update every notebook and data dictionary consistently.
+* The dataset must be clearly labeled as synthetic teaching data.
+* Do not present it as official data.
+* Ensure the CSV opens correctly with pandas.
+* Ensure no missing required columns unless a specific lab intentionally introduces missingness through a copy or derived file.
+
+Update:
+
+* `data/sample/README.md`
+* `data/sample/global_indicators_data_dictionary.md`
+* `data/README.md`
+
+State clearly:
+
+“This is a synthetic teaching dataset created for classroom exercises only. It should not be used for real empirical analysis or policy decisions.”
+
+## 12. Notebooks
+
+Ensure the following notebooks exist and are valid `.ipynb` files:
+
+* `notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb`
+* `notebooks/week-02/02_working_with_data_in_python.ipynb`
+* `notebooks/week-03/03_cleaning_transforming_data.ipynb`
+* `notebooks/week-04/04_combining_reshaping_global_data.ipynb`
+
+Important correction:
+
+The first-round instructions used Week 4 as visualization. The final report now uses Week 4 as “Combining and Reshaping Global Data” and Week 5 as visualization. Therefore:
+
+* Rename or replace the old Week 4 visualization notebook if needed.
+* Create Week 4 notebook on merging, joining, duplicate checks, and wide/long reshaping.
+* Put visualization materials in the lab and Week 5 placeholder, not as the Week 4 main notebook.
+
+Each notebook should:
+
+* Be concise and beginner-friendly.
+* Use the synthetic sample dataset or a small derived teaching file.
+* Start with title, learning objective, expected outputs, data source note, and Colab instructions.
+* Use clear markdown explanations.
+* Avoid advanced programming structures unless necessary.
+* Include small exercises.
+* Avoid requiring paid APIs or external credentials.
+* Run from top to bottom in Colab.
+
+Week 1 notebook:
+
+* Explain the course workflow.
+* Load the sample dataset.
+* Show a preview.
+* Create one simple chart.
+* Ask students to distinguish observation, pattern, interpretation, and decision claim.
+* Include a short no-advanced-coding exercise.
+
+Week 2 notebook:
+
+* Teach variables, importing pandas, loading CSV, inspecting columns, filtering, and summary statistics.
+* Use a global-data question.
+* Do not teach loops or object-oriented programming.
+
+Week 3 notebook:
+
+* Teach missing values, duplicate checks, type inspection, creating variables, filtering, and basic group-by summaries.
+* Include a data-quality checklist.
+* Require students to document one transformation.
+
+Week 4 notebook:
+
+* Teach combining and reshaping global data.
+* Include merge keys, joins, duplicate checks, unmatched rows, and wide/long logic.
+* Use either the sample dataset split into two small DataFrames or small synthetic companion files.
+* Include a source-documentation checkpoint.
+
+Create or update `notebooks/week-05-to-16/README.md` to list planned notebooks for Weeks 5–16 and mark them as under development.
+
+## 13. Labs
+
+Ensure these lab folders exist and contain README plus starter notebook or template:
+
+* `labs/lab-00-data-readiness/`
+* `labs/lab-01-data-wrangling/`
+* `labs/lab-02-visualization/`
+* `labs/lab-03-llm-verification/`
+* `labs/lab-04-bounded-agent-workflow/`
+
+Lab 02 visualization should now align with Week 5.
+
+Lab 03 LLM verification:
+
+* Must not require a paid API.
+* May use a prepared sample LLM output that students audit.
+* Should ask students to test code/claims against data.
+* Include `AI_USE_TEMPLATE.md`.
+
+Lab 04 bounded-agent workflow:
+
+* Must not use complex autonomous agents.
+* Must not require paid APIs.
+* Teach this structure:
+
+Question → Defined data/tools → Analytical steps → Draft output → Verification → Human decision
+
+* Use pseudocode, structured prompt templates, and local function-based workflow.
+* Include `AI_WORKFLOW_CARD_TEMPLATE.md`.
+
+All `solution-instructor.md` files should contain only placeholders such as:
+
+“This file is a placeholder for private instructor notes. Do not store confidential solutions in the public repository.”
+
+Do not include real solutions in public files.
+
+## 14. Capstone
+
+Update capstone materials.
+
+Tracks:
+
+* Trade and market entry
+* International finance and macroeconomic risk
+* Global consumer behavior and digital markets
+* Logistics and supply chains
+* Development, inequality, and sustainability
+* International relations, policy, and public opinion
+* Financial, corporate, or ESG data
+* Text and communication analysis
+
+Deliverables:
+
+1. Well-organized GitHub repository.
+2. Reproducible Python notebook or report.
+3. Data dictionary.
+4. Visual executive report or dashboard-style output.
+5. Two-page decision memo.
+6. AI Workflow Card.
+7. Short final presentation.
+8. Individual reflection or short defense.
+
+Rubric categories:
+
+* Question quality and decision relevance
+* Data quality and documentation
+* Analytical appropriateness
+* Reproducibility
+* Interpretation and limitations
+* Visualization and communication
+* Responsible AI use and verification
+* Teamwork and professional presentation
+* Individual contribution and understanding
+
+Include milestone schedule:
+
+* Week 10: teams and preliminary topic confirmed.
+* Week 13: capstone progress check and AI Workflow Card draft.
+* Week 14: capstone draft peer review.
+* Week 15: final repository, notebook/report, data dictionary, decision memo, visual outputs, and AI Workflow Card due.
+* Week 16: presentation and individual defense/reflection.
+
+## 15. Resources
+
+Update or create these files:
+
+* `resources/datasets.md`
+* `resources/python-pandas-cheatsheet.md`
+* `resources/visualization-checklist.md`
+* `resources/data-quality-checklist.md`
+* `resources/reproducibility-checklist.md`
+* `resources/prompt-and-verification-guide.md`
+* `resources/glossary.md`
+* `resources/further-learning.md`
+
+The dataset guide should include links or placeholders for:
+
+* World Bank
+* IMF
+* OECD
+* UN Comtrade
+* WTO
+* UNData
+* Our World in Data
+* FRED
+* national statistical offices
+* central banks
+
+Do not download large external datasets. Do not scrape websites. Document possible sources for future use.
+
+## 16. Templates
+
+Ensure the `templates/` folder is practical and ready for students.
+
+`templates/student-project-template/` should include:
+
+* `README.md`
+* `AI_USE.md`
+* `data/raw/.gitkeep`
+* `data/processed/.gitkeep`
+* `notebooks/.gitkeep`
+* `outputs/.gitkeep`
+* `src/.gitkeep`
+* `docs/.gitkeep`
+
+README should explain recommended project structure.
+
+`templates/assignment-template/` should include:
+
+* `README.md`
+* `starter.ipynb`
+* `AI_USE.md`
+
+## 17. Instructor files
+
+Update or create:
+
+* `instructor/README.md`
+* `instructor/course-development-roadmap.md`
+* `instructor/materials-status-tracker.md`
+* `instructor/classroom50-preparation.md`
+* `instructor/future-development-notes.md`
+
+These should explain:
+
+* which materials are complete now
+* which are placeholders
+* what must be developed before Spring 2027
+* how to publish weekly material
+* how to prepare Classroom 50 later
+* what must remain private
+* why real solutions should not be stored in the public repository
+
+Add a clear warning in `instructor/README.md`:
+
+“Do not store confidential grading keys, private student information, API keys, or unreleased solutions in this public repository.”
+
+## 18. Environment and Binder
+
+Update:
+
+* `requirements.txt`
+* `environment.yml`
+* `.binder/requirements.txt`
+
+Use a minimal stable environment:
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+* jupyterlab
+* openpyxl
+* requests
+* beautifulsoup4
+* statsmodels
+* plotly
+* tabulate
+
+Avoid heavy packages, proprietary APIs, large model downloads, or tools that make Binder unreliable.
+
+Update `getting-started/binder-guide.md`:
+
+* Binder is temporary.
+* Binder is for exploration and public demonstration.
+* Binder should not be used as the normal environment for graded work.
+* Students should save work through Colab/GitHub/LMS workflow.
+
+## 19. Colab links
+
+Add standard Colab links for:
+
+* Week 1 notebook
+* Week 2 notebook
+* Week 3 notebook
+* Week 4 notebook
+* lab starter notebooks
+
+Use this format:
+
+`https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/PATH_TO_NOTEBOOK.ipynb`
+
+Check that all paths match the actual files.
+
+## 20. GitHub Actions smoke test
+
+Update or create:
+
+`.github/workflows/notebook-smoke-test.yml`
+
+It should:
+
+* run on pushes and pull requests to `main`
+* install Python
+* install repository requirements
+* verify that `data/sample/global_indicators_sample.csv` exists
+* verify that the sample CSV loads in pandas
+* verify that required columns are present
+* verify that Week 1–4 notebooks are valid JSON notebooks
+* optionally run a simple lightweight smoke script
+* not execute every notebook
+* not depend on paid APIs or secrets
+* produce understandable error messages
+
+Ensure the workflow YAML is valid.
+
+## 21. Citation and license
+
+Update:
+
+* `CITATION.cff`
+* `LICENSE`
+
+CITATION.cff should name:
+
+Iegor Vyshnevskyi
+
+Affiliation:
+
+Sogang University / Geppert School of International Studies
+
+Year:
+
+2026
+
+Do not invent ORCID, personal IDs, or private contact details.
+
+Use Creative Commons Attribution 4.0 International License unless the repository already uses another standard permissive license. In README, clarify:
+
+* repository code/materials are licensed under the stated license
+* third-party datasets and external resources remain under their original licenses
+* synthetic sample data are for teaching only
+
+## 22. Implementation notes
+
+Create or update:
+
+`IMPLEMENTATION_NOTES.md`
+
+Include:
+
+1. What was completed in this round.
+2. What remains intentionally incomplete.
+3. Known placeholders.
+4. How the repository aligns with the G-LEAP report.
+5. Recommended next three development steps.
+
+Recommended next three steps should be:
+
+1. Fully test Week 1–4 notebooks in clean Colab runtimes.
+2. Complete Week 5 visualization notebook/lab and Mini-project 1 release materials.
+3. Create private instructor copies of solutions/rubrics before course delivery.
+
+## 23. Consistency checks before final commit
+
+Before committing, run these checks:
+
+1. Search the repository for `GSIS-DS-Fall-2026`; replace with `GSIS-DS`.
+2. Search for “Fall 2026”; replace with “Spring 2027” unless referring to development period.
+3. Search for “diagnostic only”, “ungraded diagnostic”, and “0%”; remove or revise outdated references to Week 8.
+4. Ensure Week 8 is always “Midterm: Individual Applied Data Analysis.”
+5. Ensure Mini-project 1 is previewed in Week 5, released in Week 6, and due in Week 8.
+6. Ensure Mini-project 2 is released in Week 10 and due in Week 13.
+7. Ensure AI Verification and Text-Data Exercise is one integrated assignment worth 15%.
+8. Ensure Week 15 is capstone submission/rehearsal.
+9. Ensure Week 16 is capstone presentation/defense.
+10. Check all Markdown links.
+11. Check all Colab links.
+12. Check all notebook files are valid JSON.
+13. Check the sample CSV loads correctly.
+14. Check GitHub Actions YAML validity.
+15. Ensure no API keys, tokens, private data, student names, or confidential instructor solutions are committed.
+
+## 24. Commit and report
+
+After completing the changes:
+
+1. Commit all files with a clear message, for example:
+
+`Complete course-ready beta repository for Spring 2027 G-LEAP submission`
+
+2. Push to the `main` branch.
+
+3. Return a concise implementation report with:
+
+* repository URL
+* summary of changed/created folders
+* key files created or revised
+* consistency checks performed
+* anything not completed because it requires instructor decision, institutional authorization, or external-service setup
+* recommended next steps
