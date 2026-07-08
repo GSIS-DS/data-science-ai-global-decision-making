@@ -32,6 +32,18 @@ GitHub is a platform for version control and collaboration. You'll use it to:
 2. Click **Star** (optional but recommended) so it is easy to find later.
 3. Review the [README](../README.md), [Syllabus](../syllabus/README.md), and [Getting Started](README.md) pages.
 
+## Apply for GitHub Education (Recommended)
+
+Students can often access additional benefits and learning resources through GitHub Education:
+
+- GitHub Education for Students: [github.com/education/students](https://github.com/education/students)
+
+Recommendation:
+
+1. Apply with your student identity as early as possible.
+2. Review available offers and tools after approval.
+3. Use approved tools to support coursework responsibly and within course policy.
+
 ## Essential Skills
 
 ### 1. Create a Repository

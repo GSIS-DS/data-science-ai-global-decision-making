@@ -2,7 +2,12 @@
 
 ## Python, Evidence, and Intelligent Tools for Business, Policy, and International Affairs
 
-Quick links: [Open in Colab](https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb) | [Binder](https://mybinder.org/v2/gh/GSIS-DS/data-science-ai-global-decision-making/main) | [Slack (TBA)](#course-communication) | [Sogang LMS](https://eclass.sogang.ac.kr/) | [DataCamp](https://app.datacamp.com/)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GSIS-DS/data-science-ai-global-decision-making/main)
+[![Slack (TBA)](https://img.shields.io/badge/Slack-TBA-4A154B?logo=slack&logoColor=white)](#course-communication)
+[![Sogang LMS](https://img.shields.io/badge/Sogang%20LMS-Visit-00599C?logo=moodle&logoColor=white)](https://eclass.sogang.ac.kr/)
+[![DataCamp](https://img.shields.io/badge/DataCamp-Account-03EF62?logo=datacamp&logoColor=0B0F1A)](https://app.datacamp.com/)
+[![GitHub Education](https://img.shields.io/badge/GitHub%20Education-Students-181717?logo=github&logoColor=white)](https://github.com/education/students)
 
 Proposed offering: Spring 2027  
 Development period: Fall 2026
