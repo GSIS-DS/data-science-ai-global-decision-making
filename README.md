@@ -4,10 +4,6 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision-making/blob/main/notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb)
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GSIS-DS/data-science-ai-global-decision-making/main)
-[![Slack (TBA)](https://img.shields.io/badge/Slack-TBA-4A154B?logo=slack&logoColor=white)](#course-communication)
-[![Sogang LMS](https://img.shields.io/badge/Sogang%20LMS-Visit-00599C?logo=moodle&logoColor=white)](https://eclass.sogang.ac.kr/)
-[![DataCamp](https://img.shields.io/badge/DataCamp-Account-03EF62?logo=datacamp&logoColor=0B0F1A)](https://app.datacamp.com/)
-[![GitHub Education](https://img.shields.io/badge/GitHub%20Education-Students-181717?logo=github&logoColor=white)](https://github.com/education/students)
 
 Proposed offering: Spring 2027  
 Development period: Fall 2026
@@ -94,6 +90,7 @@ This course uses Python notebooks, not R.
 - [Capstone](assignments/capstone/README.md)
 - [Resources](resources/README.md)
 - [Templates](templates/README.md)
+- [Learning Outcome and Assessment Alignment](syllabus/outcome-assessment-alignment.md)
 
 ## Course Communication
 
@@ -105,8 +102,10 @@ This course uses Python notebooks, not R.
 
 - Weeks 1-4 include representative starter materials.
 - Later weekly materials are under development.
-- Labs, templates, and capstone materials are course-ready beta versions.
+- Labs, templates, and capstone materials are structured beta versions and will be classroom-tested before release.
 - Materials may be updated before and during Spring 2027.
+
+Known development work is tracked in [Implementation Notes](IMPLEMENTATION_NOTES.md). Repository checks can be run with `python scripts/verify_course.py`.
 
 ## Acknowledgments
 

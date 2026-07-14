@@ -15,3 +15,9 @@ https://colab.research.google.com/github/GSIS-DS/data-science-ai-global-decision
 ## Save Workflow
 
 Use File -> Save a copy in Drive, then export or sync your finished work to GitHub/LMS submission channels as instructed.
+
+## Data Loading
+
+Course notebooks use a direct public GitHub data URL when running in Colab. You do not need to upload the sample CSV manually. A project using another dataset must document whether it loads from an approved URL, Drive, or the submitted repository.
+
+After saving a copy, select **Runtime -> Restart session and run all**. A reproducible notebook should work without relying on cells run in a different order.

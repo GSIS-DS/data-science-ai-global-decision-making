@@ -4,10 +4,11 @@
 
 - README and syllabus core files updated for Spring 2027 course identity.
 - Assessment framework aligned with graded Week 8 midterm and final weighting.
-- Week 1-4 representative notebooks and links aligned.
-- Labs and assignment files aligned to naming and sequence.
-- Capstone brief and rubric aligned to final report structure.
-- Environment files and smoke-test workflow aligned to lightweight checks.
+- Week 1-4 representative notebooks use Colab-safe loading and structured exercises.
+- Labs include objectives, timing, outputs, tasks, and completion criteria.
+- Assignment criteria and capstone performance rubric align to the final report structure.
+- Environment files, structural checks, and representative notebook execution are covered by CI.
+- Outcome-assessment alignment and weekly release checks are documented.
 
 ## Intentional Placeholders
 

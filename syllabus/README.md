@@ -9,3 +9,4 @@ This repository contains the complete syllabus for Data Science and AI for Globa
 - [Assessment](assessment.md)
 - [Policies](policies.md)
 - [AI Use Policy](ai-use-policy.md)
+- [Learning Outcome and Assessment Alignment](outcome-assessment-alignment.md)

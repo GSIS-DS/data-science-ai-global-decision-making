@@ -21,3 +21,7 @@ student-project-template/
 - Store reproducible analysis in notebooks.
 - Keep exported figures/tables in outputs.
 - Document methods and limitations in README/docs.
+- Add run instructions and a dependency file before submission.
+- Do not commit credentials, private information, or third-party data without redistribution permission.
+- Give exported charts meaningful filenames and text interpretations.
+- Record team roles and material AI use.

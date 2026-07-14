@@ -26,3 +26,7 @@ This is the Week 8 midterm. It is graded and completed individually.
 ## Weight
 
 20% of the course grade.
+
+## Evaluation Areas
+
+The released assessment will assign points across data inspection, quality checks, transformation, summaries, visualization, interpretation, reproducibility, and limitations. Students will receive the point allocation before starting. Partial credit is available for a clear, reproducible approach even when a final result is incomplete.

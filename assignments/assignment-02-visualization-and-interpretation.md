@@ -19,6 +19,23 @@ Convert analysis into decision-relevant visuals and interpretation while avoidin
 - Interpretation notes
 - AI Use Statement (if applicable)
 
+## Scope and Submission
+
+- Submit one reproducible notebook or report plus exported visual files.
+- Name the main notebook `mini_project_2.ipynb` unless the LMS brief states otherwise.
+- Every final chart must identify the measure, unit, population or geography, time period, and data source.
+- Include a short text alternative or interpretation so that the main result is not communicated through color or graphics alone.
+
+## Evaluation Criteria
+
+| Criterion | Weight |
+| --- | ---: |
+| Question-to-chart fit and analytical relevance | 20% |
+| Accuracy, scales, labels, units, and source notes | 25% |
+| Accessible and purposeful visual design | 20% |
+| Interpretation, uncertainty, and limits on claims | 25% |
+| Reproducibility and responsible AI disclosure | 10% |
+
 ## Timing
 
 - Brief released: Week 10

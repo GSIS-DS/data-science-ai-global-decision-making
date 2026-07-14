@@ -18,6 +18,23 @@ Integrate text-data analysis with responsible AI verification workflows.
 - Verification log
 - AI Use Statement
 
+## Scope and Timing
+
+- Released: Week 12
+- Due: Week 14, on the date published in the LMS
+- Use the prepared text collection or another source explicitly approved for the exercise.
+- No paid API is required. A prepared model response will be supplied so access to an external AI service is not necessary.
+
+## Evaluation Criteria
+
+| Criterion | Weight |
+| --- | ---: |
+| Transparent text-data method and documentation | 25% |
+| Quality of checks against source text or data | 30% |
+| Identification and correction of errors or unsupported claims | 20% |
+| Interpretation and limitations | 15% |
+| Complete AI Use Statement and reproducibility | 10% |
+
 ## Weight
 
 15% of the course grade as one integrated component.

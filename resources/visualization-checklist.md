@@ -14,7 +14,9 @@ Before finalizing any chart, verify:
 ## Design
 
 - [ ] Colorblind-friendly colors
+- [ ] Meaning is not conveyed by color alone
 - [ ] Sufficient font size
+- [ ] Adequate text/background contrast
 - [ ] Not cluttered
 - [ ] Scale starts at zero (for bar charts) OR clearly labeled non-zero origin
 
@@ -30,3 +32,4 @@ Before finalizing any chart, verify:
 - [ ] Appropriate for audience
 - [ ] Story is clear
 - [ ] Supporting text included
+- [ ] Short text alternative or interpretation communicates the principal result

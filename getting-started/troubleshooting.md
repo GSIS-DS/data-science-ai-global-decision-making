@@ -18,17 +18,13 @@ In Colab, install missing packages:
 
 ### CSV File Not Found
 
-Use the correct path in Colab:
-```python
-from google.colab import files
-files.download('/content/')  # For downloading
-```
-
-Or load directly from URL:
+Course notebooks should load the sample data directly from its public URL:
 ```python
 import pandas as pd
 df = pd.read_csv('https://raw.githubusercontent.com/GSIS-DS/data-science-ai-global-decision-making/main/data/sample/global_indicators_sample.csv')
 ```
+
+If you cloned the repository, run notebooks from the repository root or use the documented loader in the notebook. Do not use `files.download()` to load a CSV; that function downloads a file from Colab to your computer.
 
 ### Kernel Keeps Dying
 

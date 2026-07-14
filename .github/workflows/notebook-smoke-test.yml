@@ -24,56 +24,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Verify sample dataset exists
+        run: python scripts/verify_course.py
+
+      - name: Execute representative Week 1 notebook
         run: |
-          test -f data/sample/global_indicators_sample.csv || { echo "Missing data/sample/global_indicators_sample.csv"; exit 1; }
-
-      - name: Validate required notebooks are valid JSON
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          notebooks = [
-              Path("notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb"),
-              Path("notebooks/week-02/02_working_with_data_in_python.ipynb"),
-              Path("notebooks/week-03/03_cleaning_transforming_data.ipynb"),
-              Path("notebooks/week-04/04_combining_reshaping_global_data.ipynb"),
-          ]
-
-          for nb in notebooks:
-              if not nb.exists():
-                  raise SystemExit(f"Missing required notebook: {nb}")
-              with nb.open("r", encoding="utf-8") as f:
-                  json.load(f)
-              print(f"Valid notebook JSON: {nb}")
-          PY
-
-      - name: CSV smoke test for required columns
-        run: |
-          python - <<'PY'
-          import pandas as pd
-
-          required_cols = [
-              "country",
-              "iso3",
-              "year",
-              "gdp_growth",
-              "inflation",
-              "exports_usd_bn",
-              "imports_usd_bn",
-              "trade_openess_percent",
-              "unemployment_percent",
-              "exchange_rate_change_percent",
-              "internet_users_percent",
-              "co2_per_capita",
-              "region",
-          ]
-
-          path = "data/sample/global_indicators_sample.csv"
-          df = pd.read_csv(path)
-          missing = [c for c in required_cols if c not in df.columns]
-          if missing:
-              raise SystemExit(f"CSV missing required columns: {missing}")
-
-          print(f"CSV smoke test passed: {len(df)} rows, {len(df.columns)} columns")
-          PY
+          jupyter nbconvert \
+            --to notebook \
+            --execute notebooks/week-01/01_data_ai_evidence_global_decision_making.ipynb \
+            --output week-01-executed.ipynb \
+            --output-dir /tmp \
+            --ExecutePreprocessor.timeout=120
